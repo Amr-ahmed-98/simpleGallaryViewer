@@ -1,0 +1,29 @@
+body{
+    font-family: 'Oswald', sans-serif;
+}
+.card{
+    cursor: pointer;
+    width: 300px;
+}
+.bckdrop{
+    background-color: rgba(0, 0, 0, 0.5);
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icons i{
+    cursor: pointer;
+}
+.icons i:first-of-type{
+    left: 70%;
+}
+.icons i:last-of-type{
+    right: 70%;
+}
+.icons i:nth-of-type(2){
+    top: 5%;
+}
