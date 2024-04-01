@@ -48,7 +48,11 @@ document.addEventListener("keydown", function(e){
         goToImage("prev");
     }
 })
-
+document.addEventListener("click", function(e){
+    if(e.target.classList.contains("bckdrop")){
+        closeOffCanvas();
+    }
+})
 
 icons.addEventListener("click", function(e){
     if(e.target.classList.contains("fa-arrow-right")){
